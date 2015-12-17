@@ -1,0 +1,14 @@
+insert into bitnami_redmine.issues(
+tracker_id, project_id, subject, description, 
+due_date, category_id, status_id, assigned_to_id, 
+priority_id, fixed_version_id, author_id, 
+lock_version, created_on, updated_on, start_date, 
+done_ratio, estimated_hours, parent_id, root_id, 
+lft, rgt, is_private, closed_on)
+values(
+2, 1, 'Tarefa Secundária - Mensurar Horas', 'Levantando requisitos', 
+DATE_ADD(CURDATE(),INTERVAL 45 DAY), NULL, 1, 7, 
+2, NULL, 6, 
+1, '2015-12-16 21:42:11', '2015-12-16 21:42:48', '2015-12-16', 
+0, 10, NULL, 1, 
+1, 2, 0, NULL)
